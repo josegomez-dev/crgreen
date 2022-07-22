@@ -200,7 +200,7 @@ header .navbar {
     margin-top: 5px;
     padding: 0 0 0 15px;
 }
-.navbar-default .navbar-brand{color: #1F5014;font-size: 24px;text-transform: uppercase;}
+.navbar-default .navbar-brand{color: white;font-size: 24px;text-transform: uppercase;}
 .navbar-default .navbar-brand:hover {
     color: #fff;
 }
@@ -1690,6 +1690,10 @@ header  .navbar-nav > li > a{
 .navbar-default .navbar-toggle .icon-bar {background-color: #868686;border-radius: 0;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: rgba(221, 221, 221, 0);
+}
+.navbar-brand > img {
+	margin-top: -15px;
+	width: 150px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 border-color: rgba(255, 255, 255, 0.58);
